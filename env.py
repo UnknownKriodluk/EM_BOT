@@ -9,6 +9,6 @@ class unknbotenv:
   dt_obj = datetime.datetime.now(tz)
   timme = dt_obj.strftime("%d.%m.%Y")
   
-  token = "MTA5Nzg5MDU3MTQwMzY3Nzg4OQ.G0bXJC.lzB2UOh-4sW2ueQIWF_iKm7F72YSGMGfS54PGM"
+  token = "-"
   client = commands.Bot(command_prefix='!', intents=intents)
   slash_prefix = "/"
